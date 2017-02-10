@@ -1,0 +1,4 @@
+﻿ body {background-image: url(/Images/bg_404.png);background-repeat: no-repeat;background-position: center top;margin: 0;padding: 0;font-family: "微软雅黑";}
+ h1 {margin: 0;padding: 0;font-size: 52px;font-weight: normal;width: 570px;margin: 210px auto 0 auto;color: #333;padding: 0 0 0 82px;background-image: url(/Images/icon_404.png);background-repeat: no-repeat;background-position: left top;}
+ h1 i {font-size: 18px;line-height: 22px;color: #333;display: block;}
+ em a {margin: 90px auto 0 auto;font-style: normal;width: 393px;height: 60px;line-height: 60px;font-size: 30px;color: #fff;text-align: center;background-color: #00abb7;display: block;text-decoration: none;}

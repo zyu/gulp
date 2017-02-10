@@ -1,0 +1,18 @@
+
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 50;
+  margin: 30;
+  background: red;
+}
+
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

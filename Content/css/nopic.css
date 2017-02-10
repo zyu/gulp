@@ -1,0 +1,89 @@
+﻿.product_list {
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+}
+
+.product_list li {
+    display: inline;
+    float: left;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    margin: 0 10px 10px 0;
+    height: 136px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: box-shadow .36s linear;
+    -moz-transition: box-shadow .36s linear;
+    -ms-transition: box-shadow .36s linear;
+    -o-transition: box-shadow .36s linear;
+    transition: box-shadow .36s linear;
+}
+.product_list .pro_item {
+    height: 100%;
+}
+
+.vip06 {
+    height: 46px;
+    width: 68px;
+    /* display: block; */
+    overflow: hidden;
+    position: absolute;
+    /* top: 0px; */
+    left: 610px;
+    /* z-index: 998; */
+    float: right;
+    color: #fff;
+    padding-top: 3px;
+    text-align: center;
+    line-height: 14px;
+    background-image: url(../Images/vip05.png);
+    background-repeat: no-repeat;
+
+
+    }
+
+    product_list .props {
+    background: #fafafa;
+    border-top: 1px solid #f3f3f3;
+    padding: 8px 16px 10px;
+    height: 126px;
+    position: static;
+    /* float: right; */
+}
+
+.product_list .star_wrap {
+    /* display: block; */
+    color: #8d95a2;
+    font-size: 12px;
+    padding: 5px 200px 0;
+    line-height: 22px;
+    float: left;
+}
+
+.product_list .sell_out {
+    /* border-bottom: 1px solid #e0e0e0; */
+    padding: 5px 0 16px 0;
+    height: 14px;
+    /* float: right; */
+  
+    /* position: inherit; */
+} 
+
+.product_list .buy {
+    /* padding: 0; */
+    height: 45px;
+    /* width: 45px; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* bottom: 0; */
+    background: #fafafa;
+    /* width: 100%; */
+    float: right;
+}
+.product_list .buy .buynum {
+    float: left;
+    width: 90px;
+    margin: 6px 0 0 12px;
+}

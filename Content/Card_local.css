@@ -1,0 +1,29 @@
+﻿/*---FrameKaiKa---*/
+
+/*---FrameKaiKaOver---*/
+.btns {height: 38px;font-size: 18px;line-height: 38px;}
+a.enterbtn, a.otherbtn {line-height: 38px;}
+table.table_list {font-weight: bolder;font-size: 16px;font-family: "微软雅黑";color: #5a5a5a;vertical-align: middle;text-align: left;background-color: #FFF;width: 99%;}
+.table_list TD {color: #133a7b;word-wrap: break-word;border: 0px solid #ddd;padding: 5px;border: 1px solid #e1e1e1;}
+#page_notice {overflow: hidden;width: 600px;height: 50px;position: relative;}
+#page_notice_list {padding: 0px;border: 0px;   display: inline-block;margin: 0px;list-style: none;height: 200px;width: 600px;}
+#page_notice_list li {color: red;font-size: 16px;list-style: none;display: block;clear: both;}
+/*---FrameLTKaika---*/
+/*---FrameLTKaiKaOver---*/
+/*---FramePackage---*/
+/*---FrameTelWriteCardInfo---*/
+/*---KaiKa---*/
+/*---KaiKaOver---*/
+/*---LTKaika---*/
+/*---LTKaikaOver---*/
+/*---LTPartKaiKa---*/
+/*---LTPartKaikaOver---*/
+/*---MobileQuery---*/
+/*---OpenList---*/
+/*---Package---*/
+/*---PackageList---*/
+/*---PartKaiKa---*/
+/*---PartKaiKaOver---*/
+/*---PartTelWriteCardInfo---*/
+/*---SimApplyList---*/
+/*---TelWriteCardInfo---*/

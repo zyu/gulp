@@ -1,0 +1,288 @@
+
+
+    .x_paypay {
+        display: block;
+        overflow: hidden;
+        color: #333;
+        margin: 30px 0 0 0;
+    }
+
+    .x_num {
+        color: #ef008a;
+        font-weight: bold;
+        font-family: Verdana;
+        padding: 0 5px 0 5px;
+        font-size: 16px;
+        float: none;
+        display: inline;
+        line-height: 20px;
+    }
+
+    .x_num02 {
+        color: #ef008a;
+        font-family: arial;
+        padding: 0 5px 0 5px;
+        font-size: 40px;
+        font-family: tahoma;
+    }
+
+    .x_coupon {
+        border-top: 1px solid #eee;
+        line-height: 30px;
+        font-weight: 18px;
+        display: block;
+        overflow: hidden;
+        padding: 12px 0 12px 0;
+        float: left;
+        clear: both;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .x_hongbao {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        line-height: 30px;
+        font-weight: 18px;
+        display: block;
+        overflow: hidden;
+        padding: 12px 0 12px 0;
+        float: left;
+        clear: both;
+        width: 100%;
+        font-size: 16px;
+    }
+
+        .x_coupon input, .x_hongbao input {
+            margin: 0 5px 3px 0;
+        }
+
+    .xbt_pay {
+        display: block;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        background-color: #ef008a;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        float: right;
+        font-family: "Î¢ÈíÑÅºÚ";
+    }
+
+    a.xbt_pay:hover {
+        background-color: #ff1fa0;
+        color: #fff;
+    }
+
+    .x_check {
+        float: right;
+        width: 290px;
+        display: block;
+        clear: both;
+        margin: 25px 0 10px 0;
+    }
+
+        .x_check dd {
+            display: block;
+            overflow: hidden;
+            float: left;
+            width: 100%;
+        }
+
+            .x_check dd em {
+                display: block;
+                float: left;
+                width: 130px;
+                text-align: right;
+                height: 30px;
+                line-height: 30px;
+                font-size: 16px;
+            }
+
+            .x_check dd b {
+                display: block;
+                width: 150px;
+                padding: 0 0 0 10px;
+                float: left;
+                height: 30px;
+                line-height: 30px;
+                font-family: arial;
+                font-size: 22px;
+                font-weight: normal;
+            }
+
+    a.xbt_bcp:link, a.xbt_bcp:visited {
+        margin: 0 0 0 20px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    a.xbt_bcp:hover {
+        color: #ef008a;
+    }
+
+    .x_pay {
+        float: right;
+        clear: both;
+        height: 50px;
+    }
+
+        .x_pay i {
+            width: 450px;
+            text-align: right;
+            float: right;
+            font-size: 26px;
+            line-height: 50px;
+            padding: 0 20px 0 0;
+        }
+
+
+    .x_pi {
+        display: block;
+        float: right;
+        clear: both;
+        font-size: 16px;
+    }
+
+        .x_pi a:link, .x_pi a:visited {
+            float: right;
+            margin: 0 0 0 30px;
+            color: #979797;
+        }
+
+        .x_pi a:hover {
+            color: #ef008a;
+        }
+
+        .x_pi i {
+            display: block;
+            float: right;
+            clear: both;
+            line-height: 30px;
+            margin: 20px 0 0 0;
+        }
+
+        .x_pi em {
+            display: block;
+            float: right;
+            clear: both;
+            line-height: 30px;
+            margin: 0 0 30px 0;
+        }
+
+    .x_hb01 {
+        padding: 0 0 0 20px;
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+
+        .x_hb01 dd {
+            display: block;
+            width: 168px;
+            height: 128px;
+            float: left;
+            background-color: #ee5857;
+            margin: 0 10px 10px 0;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            background-image: url(img/icon_check.png);
+            background-repeat: no-repeat;
+            background-position: 122px 84px;
+        }
+
+        .x_hb01 dt {
+            color: #ef008a;
+            line-height: 40px;
+            display: block;
+            clear: both;
+            font-size: 16px;
+        }
+
+        .x_hb01 dd:hover {
+            background-color: #f33433;
+        }
+
+        .x_hb01 dd.xact {
+            background-position: 122px -86px;
+            background-color: #f33433;
+        }
+
+        .x_hb01 dd a {
+            display: block;
+            width: 168px;
+            height: 138px;
+        }
+
+        .x_hb01 dd i {
+            font-size: 36px;
+            color: #fce251;
+            line-height: 32px;
+            text-align: center;
+            display: block;
+            padding: 10px 0 0 0;
+            font-family: arial;
+        }
+
+            .x_hb01 dd i span {
+                font-size: 20px;
+            }
+
+        .x_hb01 dd em {
+            line-height: 16px;
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            display: block;
+        }
+
+            .x_hb01 dd em span {
+                font-weight: bold;
+                padding: 0 3px 0 3px;
+                font-size: 14px;
+            }
+
+    .x_tips01 {
+        color: #ef008a;
+        line-height: 30px;
+        display: block;
+        clear: both;
+        padding: 0 0 0 20px;
+    }
+
+    .x_tips02 {
+        color: #333;
+        line-height: 36px;
+        font-size: 16px;
+        font-weight: normal;
+        display: inline;
+        padding: 0 0 0 20px;
+    }
+
+    .x_hb01 dd.hb_used {
+        background-position: -10px -221px;
+        background-color: #f6f6f6;
+    }
+
+        .x_hb01 dd.hb_used i {
+            color: #ee5857;
+        }
+
+        .x_hb01 dd.hb_used em {
+            color: #888;
+        }
+
+    .x_hb01 dd.hb_expired {
+        background-position: -10px -393px;
+        background-color: #ededed;
+    }
+
+        .x_hb01 dd.hb_expired i {
+            color: #b5b5b5;
+        }
+
+        .x_hb01 dd.hb_expired em {
+            color: #888;
+        }

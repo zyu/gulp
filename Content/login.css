@@ -1,0 +1,106 @@
+body { background:#FFF}
+.loginbarbox { background:url(../Images/login_icos.png) repeat-x; height:34px; overflow:hidden}
+.loginbar .deskico { float:left; padding-top:4px;}
+.loginbar .deskico a { float:left; width:110px; height:26px; background:url(../Images/login_icos.png) no-repeat 0 -38px;}
+.loginbar .deskico a span { display:none}
+.loginbar .deskico p { float:left;line-height:26px; }
+.loginbar .deskico p i { display:inline-block;background:url(../Images/login_icos.png) no-repeat -121px -45px; width:5px; height:11px; margin:0 6px 0 10px; vertical-align:middle}
+.loginbar .r { float:right;padding-top:8px; width:300px; height:16px; line-height:16px;}
+.loginbar .r .telenum { float:right; width:147px}
+.loginbar .r .telenum i { background:url(../Images/login_icos.png) -139px -43px no-repeat; width:16px; height:20px; display:inline-block;vertical-align: middle; margin-right:5px;}
+.loginbar .r .telenum span { font-size:16px; color:#E40083; font-weight:bold}
+.loginbar .r .favorites { height:16px; border-left:solid 1px #9AA3A9; padding-left:12px; width:40px; float:right; line-height:16px; overflow:hidden}
+.loginbar .r .favorites a i { display:inline-block; height:16px; width:16px; background:url(../Images/login_icos.png) -166px -45px no-repeat; vertical-align:middle}
+.header { height:95px;}
+.header .logo { width:300px; height:65px; background:url(http://img1.51aika.com/abl/images/logo_ablny.png); float:left; margin-top:20px;}
+.header .ritem { float:right; margin-top:32px;}
+.header .ritem li { float:left; font-size:18px; line-height:32px; margin:0 0 0 25px}
+.header .ritem li i { background:url(../Images/login_icos.png) no-repeat 0 -68px; height:32px; width:32px; float:left; margin-right:5px;}
+.header .ritem li i.two { background-position:-31px -68px;}
+.header .ritem li i.three { background-position:-62px -68px;}
+
+.slidesbox { height:500px; overflow:hidden}
+.banner{width:1903px;position:relative; height:500px;}
+.banner_inner{position:relative;height:500px;width:1000px;margin:0 auto;}
+
+.banner .child1{position:absolute;width:514px;height:141px;left:0px;top:30px}
+.banner .child2{position:absolute;width:514px;height:298px;left:0px;top:180px}
+.banner .child3{position:absolute;width:605px;height:65px;left:0px;top:50px}
+.banner .child4{position:absolute;width:605px;height:367px;left:0px;top:110px}
+.banner .child5{position:absolute;width:596px;height:271px;left:0px;top:40px}
+.banner .child6{position:absolute;width:596px;height:155px;left:0px;top:310px}
+
+.banner_img{width:20000px}
+.banner_img li{float:left;width:1903px;position:relative; height:500px; background-position:center top; background-repeat:no-repeat; background:#29b1cc}
+.banner_img li.bgli01{ background-color:#29b1cc;}
+.banner_img li.bgli02{ background:#ffd219;}
+.banner_img li.bgli03{ background:#7c53af;}
+.banner_img li.bgli04{ background:#0a7ba4;}
+
+
+
+.banner_common{position:relative;width:95%;margin:0 auto}
+.banner_pre{position:absolute;top:50%;left:0;margin-top:220px;width:60px;height:60px;cursor:pointer;background:url(../images/banner_btn_l_24.png) no-repeat;opacity:.5;filter:alpha(opacity=50)}
+.banner_next{position:absolute;top:50%;right:0;margin-top:220px;width:60px;height:60px;cursor:pointer;background:url(../images/banner_btn_r_24.png) no-repeat;opacity:.5;filter:alpha(opacity=50)}
+.banner_pre:hover, .banner_next:hover{opacity:1;filter:alpha(opacity=100)}
+.banner .control{width:160px; margin:0 auto; overflow:hidden; position:absolute; top:460px; left:50%; margin-left:-50px; height:24px}
+.banner .control li{float:left;margin-left:10px;width:16px;height:16px;border-radius:50%;cursor:pointer;background:#fff; margin-top:5px; box-shadow:0px 1px 0px #FFF}
+.banner .control li a{display:none}
+/*
+.banner .control li.twoli { background:#f3df00}
+.banner .control li.threeli { background:#44b6ff}
+.banner .control li.fourli { background:#7cec46}
+.banner .control li.fiveli { background:#7cec46}*/
+.banner .control li.current{background:#aaa}
+.loginbox { position:relative; top:-500px; z-index:9999; }
+.login { float:right; width:270px; height:305px; background:#fff; margin:55px 20px 0 0; padding:20px; position:relative; _display:inline}
+.login h2 { font:16px; font-weight:normal; font-family:microsoft yahei,simhei}
+.login ul { padding-top:8px;}
+.login ul li { padding:10px 0; height:42px;}
+.login input.username,.login input.password { height:22px; width:210px; background:url(../Images/login_icos.png) no-repeat 0 -222px; border:0; padding:10px 10px 10px 50px; font-size:14px; vertical-align:middle;font-family:Verdana,microsoft yahei; line-height:22px; width:210px;}
+.login input.password { background-position:0 -265px}
+.login input.f14 { font-size:14px;}
+.login .login_btn { float:left; width:140px;  }
+.login .send {border-radius:3px; background:#F1088F; border:none; width:120px; height:35px; cursor:pointer; color:#fff; font-size:16px; text-align:center; font-family:microsoft yahei,simhei}
+.login span { float:left; padding-top:15px;}
+.login span a { color:#0178AA; text-decoration:underline}
+.login span a:hover { color:#F1088F}
+.login .errmsg { color: #F00; font-size: 14px; clear: both; display: block; background:#FF9; /*height:20px;*/ line-height:20px; padding:2px 10px; border:#FC0 solid 1px; position:relative; bottom:28px;}
+.login .errmsg i { background: url(../Images/sprites.png) -1px -449px; width: 12px; height: 12px; display: inline-block; margin-right: 5px; }
+
+.joinusbox {height:50px; background:#F5F4F5; padding-top:20px; width:100%}
+.joinusbox .joinus { height:50px; width:1002px; margin:0 auto}
+.joinusbox .joinus div{float:left; font-size:16px; margin:0; padding:0; height:50px; width:600px;}
+.joinusbox .joinus em{display:block;float: left;margin: 0;padding: 0;height: 50px;width: 229px;background-repeat: no-repeat;background-image: url(../Images/Other/tel_join.png);background-position: center 8px;}
+.joinusbox .joinus a { float:right; width:118px; height:33px; background:#79BE15; text-align:center; font-size:16px; color:#fff; line-height:33px; margin-right:0; border-radius:3px;}
+
+.czlist { float:left; width:300px; overflow:hidden}
+.title{ height:25px; overflow:hidden; width:100%}
+.title h2,.czlist ul li i {background:url(../Images/login_icos.png) no-repeat 0 -151px; }
+.title h2 {height:22px; width:90px; float:left; margin-right:10px;  }
+.title h2 span { display:none}
+.title p { float:left; vertical-align: text-bottom; padding-top:7px;}
+.con { padding-top:15px; height:100px; overflow:hidden}
+.czlist ul li { float:left; margin-right:24px; text-align:center; width:50px;}
+.czlist ul li i { display:block; height:50px; width:50px; background-position:0 -100px;}
+.czlist ul li span { display:block; margin-top:6px;}
+.czlist ul li i.water {background-position:-51px -100px;}
+.czlist ul li i.game {background-position:-102px -100px;}
+.czlist ul li i.bus {background-position:-153px -100px;}
+.brandlist { width:310px; margin-left:40px; float:left; _display:inline}
+.brandlist .title h2{ background-position:0 -174px}
+.brandlist ul li { float:left; width:90px; height:35px; border:solid #D0DAE0 1px; margin:0 10px 8px 0}
+
+.huodong { float:left; margin-left:40px; width:305px; overflow:hidden; _display:inline}
+
+.huodong .title h2 { background-position:0 -195px;}
+.huodong .con .pic{ width:75px; height:66px; float:left; margin-top:10px;}
+.huodong .con .list { float:left; margin-left:20px; width:205px; padding-top:5px;}
+.huodong .con .list li { float:left; font-size:14px; margin-right:18px; margin-bottom:5px;}
+.huodong .con .list li a {font-size:14px; color:#0178AA;}
+.huodong .con .list li a:hover { color:#F30}
+.huodong .con .list li.last { margin-right:0}
+
+.loginpic1 { background:#D0DAE0; height:80px; width:280px}
+.loginpic2 { background:#D0DAE0; height:80px; width:300px}
+.loginpic3 { background:#D0DAE0; height:80px; width:300px; margin-left:3px; }

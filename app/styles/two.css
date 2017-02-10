@@ -1,0 +1,23 @@
+
+dl.adv {width:1000px; display:block; overflow:hidden; margin:0 auto 0 auto;}
+dl.adv dd {width:33%; float:left; height:170px;display:block; }
+dl.adv dd em {
+	display: block;
+	height: 30px;
+	width: 30px;
+	float: left;
+	background-image: url(/Images/liansuo/icons.png);
+	background-repeat: no-repeat;
+	background-position: -262px -82px;
+	text-align:center; line-height:30px; font-size:20px; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#fff;
+}
+dl.adv dd i {
+	display: block;
+	height: 27px;
+	width: 210px;
+	float: left;
+	background-image: url(/Images/liansuo/icons.png);
+	background-repeat: no-repeat;
+	margin:2px 0 0 5px;
+}

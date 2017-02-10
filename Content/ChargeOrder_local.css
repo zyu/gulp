@@ -1,0 +1,42 @@
+﻿
+#mobileInfo，#cardInfo {font-size: 15px;font-weight: bold;}
+.field-validation-error {color: red;}
+#page_notice {overflow: hidden;width: 600px;height: 50px;position: relative;}
+#page_notice_list {padding: 0px;border: 0px;display: inline-block;margin: 0px;list-style: none;height: 200px;width: 600px;}
+#page_notice_list li {color: red; font-size: 16px; list-style: none; clear: both;  }
+.div_games {margin-left: 100px;margin-top: 20px;}
+
+
+
+
+/*---ChargeMenu---*/
+.czbtns_icos dd a i.ico_tuijian {background-position: -902px -33px;}
+.czbtns_icos dd a:hover i.ico_tuijian, .czbtns_icos dd.current a i.ico_tuijian {background-position: -902px -77px;}
+/*---FlowPart---*/
+
+#waringProvice {font-size: 24px;}
+/*---FrameGame---*/
+#listtb tr td {height: 50px;width: 132px;}
+#right {height: auto;left: -49px;margin: 0 auto 40px;min-height: 140px;top: 30px;width: 503px;}
+#right .yxname {color: #000000;font-family: '\'cb\'ce\'cc\'e5';font-size: 11pt;}
+#gamelist {left: 199px;top: 29px;}
+#gamelist table {background-color: #94a8b5;}
+#gamelist .yxlist {background-color: #eef2f4;height: 20px;width: 368px;}
+#glst {background-color: #ffffff;height: 100px;width: 368px;}
+/*---FrameList---*/
+#content {width:100%;}
+.content {float:left;width:100%;}
+/*---FrameUtilities---*/
+.wxts_a {color: #36c;}
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/
+/*---ChargeMenu---*/

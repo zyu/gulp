@@ -1,0 +1,18 @@
+﻿body {margin: 0;padding: 0;font-size: 12px;font-family: Verdana;background-image: url(/Images/Crowdfunding/top.jpg);background-position: center top;background-repeat: no-repeat;}
+a {text-decoration: none;}
+p, dl, dt, dd {margin: 0;padding: 0;}
+dl, dt, dd {margin: 0;padding: 0;list-style-image: none;list-style-type: none;}
+.top {height: 460px;}
+img {border: none;float: left;}
+.main {width: 900px;margin: 0 auto 0 auto;}
+.left {width: 561px;float: left;}
+.right {width: 330px;float: left;margin: 0 0 0 8px;}
+.right dl dt {background-image: url(/Images/Crowdfunding/tit01.png);width: 330px;height: 110px;float: left;}
+.right dl dd {background-image: url(img/bg01.png);width: 330px;float: left;background-position: left top;display: block;background-color: #f9f9f9;overflow: hidden;padding: 0 0 20px 0;border-bottom: 1px solid #eee;}
+.right dl dd p {margin: 0 10px 5px 38px;text-indent: -25px;line-height: 16px;}
+.right dl dd a {color: #fff;background-color: #f00;padding: 6px 20px 6px 20px;display: block;border-radius: 5px;font-size: 16px;float: left;font-weight: bold;margin: 13px 0 0 100px;}
+.right dl dd a:hover {background-color: #f60;}
+dl dt p em {font-size: 36px;color: #e90000;font-style: normal;}
+dl dt p {font-size: 16px;color: #e90000;margin: 12px 0 0 38px;float: left;}
+dl dt i {color:#333; font-style:normal; padding:0 0 0 10px; float:left; margin:5px 0 0 152px;}
+dl dt span {font-size: 50px;width: 60px;float: left;display: block;color: #fff;text-align: center;} 

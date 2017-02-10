@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test gulp html</title>
+</head>
+<!-- build:css styles/main.css -->
+<link rel="stylesheet" href="styles/button.css"> 
+<!-- endbuild -->
+
+<style>
+	.alert-dismissable,
+.alert-dismissible {
+  padding-right: 50;
+  margin: 30;
+  background: red;
+}
+
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+</style>
+<!-- build:inlinejs -->
+<script>
+	p.showFreshProduct = function (id) {
+        $.post("/FreshProduct/GetStyle", { id: id }, function (d) {
+            $("#spanStyleInfo").text("选择规格");
+            if (d.Data.length == 0) return;
+
+            $("#styleDetail").empty();
+            $(d.Data).each(function (index) {
+                var objStyle = d.Data[index];
+                $("<dt><a href='javascript:P.setStyle(" + objStyle.Id + ")' id='astyle" + objStyle.Id + "'>[" + objStyle.S_StandardName + "],单价：" + objStyle.Unitprice.toFixed(2) + "元    合计：" + objStyle.S_SalePrice + "元，库：" + objStyle.S_Stock + "件，由" + objStyle.S_Su_Name + "提供</a></dt>").appendTo($("#styleDetail"));
+            });
+            curProduct.IsFresh = true;
+            showPopu("popuDivContent", 420, 480);
+            P.setStyle(d.Data[0].Id);
+            $('#pro_count').val(2);
+        }
+        )
+    };
+
+    //显示详细(规格或包)saleMode可在curProduct里设置，这里为可选
+    p.showProductDetail = function (productId, saleMode) {
+        curProduct.IsFresh = false;
+        var proli = $("#product_" + productId);
+        curProduct.num = $('#buyNum_' + productId).val() || 1;//首页列表没有数量，所以要防御编程
+        curProduct.isPackage = proli.attr("isPackage") === "True";
+        if (curProduct.isPackage) {
+            curProduct.styleId = 0;
+        } else {
+            curProduct.styleId = -1;
+        }
+        curProduct.productId = productId;
+        if (saleMode != undefined) {
+            curProduct.saleMode = saleMode;
+        }
+        //零元购活动id
+        if (proli.attr("activityId")) {
+            curProduct.activityId = proli.attr("activityId");
+        } else {
+            curProduct.activityId = 0;
+        }
+        $("#styleDetail").html("");
+        $("#pro_count").val(curProduct.num);
+
+
+
+        if (curProduct.isPackage) {
+            $.post("/Product/GetProductPackage", { productId: productId }, function (data) {
+                $('.pStyle').parent().remove();
+                $('.pTitle').parent().remove();
+                var d = data.Data;
+                $("#spanStyleInfo").text("包内商品如下:");
+                for (var i = 0; i < d.length; i++) {
+                    var item = d[i];
+                    $("#styleDetail").append('<li><div style="width:250px">' + item.Product.ProductName + ' ' + item.StyleName + ' ' + item.Num + ' 件 单价 ¥' + item.SoldPrice + '</div></li>');
+                }
+                showPopu("popuDivContent", 420, 280);
+            });
+        } else {
+            $.post("/Product/GetStyle", { productId: productId }, function (d) {
+                $("#spanStyleInfo").text("选择规格");
+                if (d.Data.length == 0) return;
+              
+                $(d.Data).each(function (index) {
+                    var objStyle = d.Data[index];
+                    $("<dt><a href='javascript:P.setStyle(" + objStyle.Id + ")' id='astyle" + objStyle.Id + "'>" + objStyle.Name + "</a></dt>").appendTo($("#styleDetail"));
+                });
+                showPopu("popuDivContent", 420, 280);
+                P.setStyle(d.Data[0].Id);
+            });
+        }
+    };
+
+
+</script>
+<!-- endbuild -->
+
+<body>
+	<div class="alert-dismissable">
+		<div class="close">X</div>
+	</div>
+</body>
+ <!-- build:js scripts/build.js-->
+<script type="text/javascript" src="scripts/public.js"></script>  
+<script type="text/javascript" src="scripts/publicPop.js"></script>
+<!-- endbuild -->
+</html>
